@@ -153,6 +153,10 @@ foreach ($guilds as $key => $guildData) {
 </html>
 ```
 
+# Check if everything works
+
+Next up, open xampp and enable "Apache". To make sure everything works correctly, go to "localhost/index.php"
+
 The main task of this workshop is to write the code for "process-oauth.php" given the fact it is the link between your index and your dashboard. Feel free to use all the php & discord related documentation about this.
 
 

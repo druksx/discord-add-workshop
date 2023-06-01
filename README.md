@@ -153,7 +153,7 @@ foreach ($guilds as $key => $guildData) {
 </html>
 ```
 
-# Check if everything works
+## Check if everything works
 
 Next up, open xampp and enable "Apache". To make sure everything works correctly, go to "localhost/index.php"
 

@@ -161,6 +161,20 @@ Next up, open xampp and enable "Apache". To make sure everything works correctly
 
 The main task of this workshop is to write the code for "process-oauth.php" given the fact it is the link between your index and your dashboard. Feel free to use all the php & discord related documentation about this.
 
+## Create the webhook Discord first
+
+On the Discord server, try to create your webhook and name it. You should find in the parameter of the server in the **Integrations** section.
+
+## Writing ``process-oauth.php``
+
+Create two functions first with these prototypes:
+
+``function addUserToGuild($discord_ID, $token, $guild_ID)``
+
+and
+
+``function getUsersGuilds($auth_token)``
+
 # Bonus
 
 If you finished doing this, then you can also think about doing error.php and logout.php.

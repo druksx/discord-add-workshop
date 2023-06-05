@@ -175,6 +175,10 @@ and
 
 ``function getUsersGuilds($auth_token)``
 
+You must use [cURL transmissions](https://en.wikipedia.org/wiki/CURL) [with PhP](https://www.php.net/manual/fr/ref.curl.php)
+
+Pay attention for the error management part, what happens if we want to enter `dashboard.php` directly from the adress bar for example ? 
+
 # Bonus
 
 If you finished doing this, then you can also think about doing error.php and logout.php.

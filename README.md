@@ -51,18 +51,18 @@ Execute this code by doing
 node host.js
 ```
 
-* Create the following files inside C://xampp/htdocs (nowhere else):
-* dashboard.php
-* index.php
-* logout.php
-* process-oauth.php
-* init-oauth.php
+Create the following files inside C://xampp/htdocs (nowhere else):
+* `dashboard.php`
+* `index.php`
+* `logout.php`
+* `process-oauth.php`
+* `init-oauth.php`
 
 * Come back on the discord developer portal and on the oauth section, write this:
 
 ![Image](https://cdn.discordapp.com/attachments/917404549055123498/1111628277380022313/image.png)
 
-For init-oauth.php, write this code:
+For `init-oauth.php`, write this code:
 
 ```
 <?php
@@ -80,7 +80,7 @@ Instead of `Bot's url`, go to "URL generator", and follow this step:
 
 You have to grant the three permissions listed above and add your redirect, hence it is important.
 
-On index.php, create add this content:
+On `index.php`, create add this content:
 
 ```
 <!doctype html>
@@ -102,7 +102,7 @@ On index.php, create add this content:
 </html>
 ```
 
-On dashboard.php, add this content:
+On `dashboard.php`, add this content:
 
 ```
 <?php
@@ -155,11 +155,11 @@ foreach ($guilds as $key => $guildData) {
 
 ## Check if everything works
 
-Next up, open xampp and enable "Apache". To make sure everything works correctly, go to "localhost/index.php"
+Next up, open xampp and enable "Apache". To make sure everything works correctly, go to `localhost/index.php`
 
 # Final task: The Link.
 
-The main task of this workshop is to write the code for "process-oauth.php" given the fact it is the link between your index and your dashboard. Feel free to use all the php & discord related documentation about this.
+The main task of this workshop is to write the code for `process-oauth.php` given the fact it is the link between your index and your dashboard. Feel free to use all the php & discord related documentation about this.
 
 ## Create a webhook Discord first
 
@@ -177,11 +177,11 @@ and
 
 You must use [cURL transmissions](https://en.wikipedia.org/wiki/CURL) [with PhP](https://www.php.net/manual/fr/ref.curl.php)
 
-Pay attention for the error management part, what happens if we want to enter `dashboard.php` directly from the adress bar for example ? 
+Pay attention for the error management part, what happens if we want to enter `dashboard.php` directly from the address bar for example ? 
 
 # Bonus
 
-If you finished doing this, then you can also think about doing error.php and logout.php.
+If you finished doing this, then you can also think about doing `error.php` and `logout.php`.
 
 As a final bonus, implement this feature on a simple website with a form system linked to a button.
 

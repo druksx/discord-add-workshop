@@ -102,6 +102,8 @@ On `index.php`, create add this content:
 </html>
 ```
 
+You can see that it's a HTML code, but it's works in PhP too.
+
 On `dashboard.php`, add this content:
 
 ```
@@ -153,6 +155,8 @@ foreach ($guilds as $key => $guildData) {
 </html>
 ```
 
+That code is just the page that `index.php` will send to you after you confirm your input.
+
 ## Check if everything works
 
 Next up, open xampp and enable "Apache". To make sure everything works correctly, go to `localhost/index.php`
@@ -177,7 +181,9 @@ and
 
 You must use [cURL transmissions](https://en.wikipedia.org/wiki/CURL) [with PhP](https://www.php.net/manual/fr/ref.curl.php)
 
-Pay attention for the error management part, what happens if we want to enter `dashboard.php` directly from the address bar for example ? 
+Pay attention for the error management part, what happens if we want to enter `dashboard.php` directly from the address bar for example ?
+
+**We will let you write the code on your own but feel free to do a lot of research on that topic first. Don't forget that the aim is to create a form like the one we demonstrated.**
 
 # Bonus
 

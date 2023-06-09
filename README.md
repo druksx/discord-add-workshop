@@ -16,7 +16,7 @@ You MUST use Windows for this workshop. This being done, install xampp & if you 
 # Setting Up Discord Bot
 Create a Discord Application
 
-* Visit the Discord Developer Portal (https://discord.com/developers/applications) and create a new application.
+* Visit the [Discord Developer Portal](https://discord.com/developers/applications) and create a new application.
 * Give your application a name and click on "Create" to proceed.
 * Create a Bot User.
 * In the Discord Developer Portal, navigate to your application and select the "Bot" tab.
@@ -26,7 +26,7 @@ Create a Discord Application
 
 * In the Bot section of your application, locate the "Token" and click on "Copy" to copy the bot token.
 * Keep the token secure and do not share it publicly.
-* Invite the Bot to Your Server
+* Invite the Bot to [this server](https://discord.gg/EucWs7s9)
 
 
 ```

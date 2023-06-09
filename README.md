@@ -30,26 +30,29 @@ Create a Discord Application
 
 
 ```
-const Discord = require('discord.js');
-const client = new Discord.Client();
+import discord
+from discord.ext import commands
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}`);
-});
+TOKEN = 'MTA3MDEwMTYzOTcwMjI1MzYzOQ.G8XIJd.zN9NSSoxAqVKA9kX57ME7nqv-yxgweKxRzOEFk'
 
-client.on('message', (message) => {
-  if (message.content === '!ping') {
-    message.channel.send('Pong!');
-  }
-});
+intents = discord.Intents.default()
+intents.message_content = True
 
-client.login('YOUR_BOT_TOKEN');
+client = commands.Bot(command_prefix='.', intents=intents)
+
+#####
+#####
+## Insert other functions here
+#####
+#####
+
+client.run(TOKEN)
 ```
 
 Execute this code by doing
 
 ```
-node host.js
+python3 host.py
 ```
 
 Create the following files inside C://xampp/htdocs (nowhere else):

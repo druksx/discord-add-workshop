@@ -9,11 +9,11 @@ Familiarity with JavaScript is a plus but not required
 Workshop Setup
 To participate in this workshop, follow the steps below to set up the necessary environment:
 
-## Install a Local PHP Server
+## Install a local PHP server
 
 You MUST use Windows for this workshop. This being done, install xampp & if you do not have a terminal, you can either install VsCode or use the only platform repl.it that already have bash enabled there!
 
-# Setting Up Discord Bot
+# Set up a Discord bot
 Create a Discord Application
 
 * Visit the [Discord Developer Portal](https://discord.com/developers/applications) and create a new application.

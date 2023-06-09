@@ -33,7 +33,7 @@ Create a Discord Application
 import discord
 from discord.ext import commands
 
-TOKEN = 'MTA3MDEwMTYzOTcwMjI1MzYzOQ.G8XIJd.zN9NSSoxAqVKA9kX57ME7nqv-yxgweKxRzOEFk'
+TOKEN = 'TOKEN'
 
 intents = discord.Intents.default()
 intents.message_content = True
